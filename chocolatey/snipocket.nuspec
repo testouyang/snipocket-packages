@@ -4,6 +4,7 @@
     <id>snipocket</id><version>1.1.0</version><title>Snipocket</title>
     <authors>PanPanTV</authors><owners>snipocket</owners>
     <projectUrl>https://snipocket.com/</projectUrl>
+    <docsUrl>https://snipocket.com/docs.html</docsUrl>
     <iconUrl>https://snipocket.com/assets/icon-256.png</iconUrl>
     <packageSourceUrl>https://github.com/testouyang/snipocket-packages/tree/main/chocolatey</packageSourceUrl>
     <licenseUrl>https://snipocket.com/terms.html</licenseUrl>
