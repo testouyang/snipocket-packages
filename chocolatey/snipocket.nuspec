@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>snipocket</id><version>1.1.0</version><title>Snipocket</title>
+    <authors>PanPanTV</authors><owners>snipocket</owners>
+    <projectUrl>https://snipocket.com/</projectUrl>
+    <iconUrl>https://snipocket.com/assets/icon-256.png</iconUrl>
+    <packageSourceUrl>https://github.com/testouyang/snipocket-packages/tree/main/chocolatey</packageSourceUrl>
+    <licenseUrl>https://snipocket.com/terms.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>screenshot screen-capture screen-recording clipboard ocr</tags>
+    <summary>Screenshot and recording tool with local text search.</summary>
+    <description>Snipocket automatically collects screenshots and lets users search text in images, video frames and PDF content. Basic screenshots, annotation, pinned images, color picking and text clipboard history remain free. Advanced features include a free 7-day trial and require a one-time license afterwards. No account is required.
+
+Windows 10/11 x64. This package downloads the original installer from snipocket.com and installs for the Windows account running Chocolatey; it does not install for every Windows user.</description>
+    <releaseNotes>• Licensing changed to Personal with up to 3 devices (any mix of Mac / Windows); checking for updates and sending feedback no longer fail on networks in mainland China.
+• Now publicly available for download; recording starts faster and stops more cleanly while Instant Replay is on; Clipboard Hub supports Tab switching and Enter to copy images; the annotation toolbar is now two rows with a new stroke/fill toggle, and the editor opens at the image's original size; fixed the pin history menu disappearing on its own, settings window lag, and inconsistent skin tile sizes.</releaseNotes>
+  </metadata>
+  <files><file src="tools\**" target="tools" /></files>
+</package>
